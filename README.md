@@ -11,9 +11,12 @@ git clone https://github.com/Edgebird/tech_challenge.git
 After a local copy has been made. Navigate into the folder *tech_challenge*.
 
 Once inside the folder run the following command.
+
 '''
 docker-compose up -d --build
 '''
+
+After the application has started enter [https://localhost:443](https://localhost:443)
 
 ## Why these products
 
