@@ -46,6 +46,7 @@ RUN sed -i \
 There are two additional files
 > server.crt
 > server.key
+
 These are the SSL autorization files, containing unique keys.
 
 ## How to Run
@@ -55,7 +56,7 @@ First make a clone of the github repository using
 git clone https://github.com/Edgebird/tech_challenge.git
 ```
 
-After a local copy has been made. Navigate into the folder *tech_challenge/*.
+After a local copy has been made. Navigate into the folder *./tech_challenge/*.
 
 Once inside the folder run the following command.
 
@@ -63,7 +64,7 @@ Once inside the folder run the following command.
 docker-compose up -d --build
 ```
 
-After the application has started enter [https://localhost:443](https://localhost:443)
+After the application has started enter [https://localhost:443](https://localhost:443) to display webpage.
 
 ## Why these products
 
