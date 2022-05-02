@@ -1,5 +1,10 @@
 FROM httpd:2.4
-COPY index.html /usr/local/apache2/htdocs/index.html
+
+RUN apt update \
+  && apt install -y wget
+
+RUN wget -O /usr/local/apache2/htdocs/index.html https://bitbucket.org/bjgiller/evt-tech-challenge/raw/master/evt-web.html
+
 COPY server.crt /usr/local/apache2/conf/
 COPY server.key /usr/local/apache2/conf/
 EXPOSE 443
