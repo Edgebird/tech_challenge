@@ -14,7 +14,7 @@ services:
     ports:
       - 443:443
 ```
-Builds an image based on the local Dockerfile named "tech_challenge". Makes sure port 443 is being able to be heard from the host to the container. 
+Builds an image based on the local Dockerfile named "tech_challenge". Maps port 443 from the host to the container. 
 
 #### *Dockerfile*
 
