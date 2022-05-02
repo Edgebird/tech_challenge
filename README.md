@@ -63,7 +63,7 @@ Once inside the folder run the following command.
 docker-compose up -d --build
 ```
 
-After the application has started enter [https://localhost:443](https://localhost:443) to display webpage.
+After the application has started enter [https://localhost:443](https://localhost:443) into your preferred web browser to display the webpage.
 
 ## Why these products
 
