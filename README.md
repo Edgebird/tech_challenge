@@ -44,8 +44,7 @@ RUN sed -i \
 6. Updates the config file to activate for accepting SSL connections.
 
 There are two additional files
-> server.crt
-> server.key
+> server.crt & server.key
 
 These are the SSL autorization files, containing unique keys.
 
