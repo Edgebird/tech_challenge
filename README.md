@@ -1,5 +1,5 @@
 # Tech Challenge
-This project utilizes docker and httpd/apache to display a single secure webpage with a defined html script. 
+This project utilizes docker and httpd/apache to display a single secure webpage. 
 
 ## Files
 #### *docker-compose.yml*
