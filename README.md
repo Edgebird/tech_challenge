@@ -3,6 +3,7 @@ This project utilizes docker and httpd/apache to display a single secure webpage
 
 ## How to Run
 First make a clone of the github repository using 
+
 '''
 git clone https://github.com/Edgebird/tech_challenge.git
 '''
