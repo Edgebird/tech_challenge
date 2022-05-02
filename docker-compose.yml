@@ -1,19 +1,8 @@
-version: '3.8'
+version: '3.9'
 
 services:
-#  web:
-#    build: /apache
-#      context: httpd:2.4
-    #command:
-
   apache:
     image: 'tech_challenge'
     build: .
-    hostname: tech_challenge
     ports:
-      - 80:8080
-#      - 443:8443
-#    volumes:
-#      - /path/to/app:/apache
-#    depends_on:
-#      - web
+      - 443:443
