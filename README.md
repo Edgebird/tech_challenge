@@ -39,14 +39,14 @@ RUN sed -i \
 1. Pulls version 2.4 of the image httpd.
 2. Updates repositories and installs wget.
 3. Uses wget to copy evt-web.html from the weblink to index.html to be displayed on the frontend.
-4. Makes a copy of the SSL certificate and key to where apache checks.
+4. Makes a copy of the SSL certificate and key into the build enviornment.
 5. Makes sure the container is listening on port :443.
-6. Updates the config file to activate for accepting SSL connections.
+6. Updates the config file (/usr/local/apache2/conf/httpd.conf) to activate for accepting SSL connections.
 
 There are two additional files
 > server.crt & server.key
 
-These are the SSL autorization files, containing unique keys.
+These are the self-signed certificate SSL autorization end keys. Do not use in a deplayed environment.
 
 ## How to Run
 First make a clone of the github repository using 
