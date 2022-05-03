@@ -41,7 +41,7 @@ RUN sed -i \
 3. Uses wget to copy evt-web.html from the weblink to index.html to be displayed on the frontend.
 4. Makes a copy of the SSL certificate and key into the build enviornment.
 5. Makes sure the container is listening on port :443.
-6. Updates the config file (/usr/local/apache2/conf/httpd.conf) to activate for accepting SSL connections.
+6. Updates the config file (/usr/local/apache2/conf/httpd.conf) to accept SSL connections.
 
 There are two additional files
 > server.crt & server.key
